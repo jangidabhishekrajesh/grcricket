@@ -32,22 +32,23 @@ Back to top button
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3498db;
+  background-image: linear-gradient(to right, #dbf4ff, white);
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 50%;
   transition: all 0.4s;
+  border: 1px solid #00d7fd;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #57aae1;
-  color: #fff;
+  background: #00d7fd;
+  color: #ffffff;
+  border: 1px solid #00d7fd;
 }
 
 .back-to-top.active {
@@ -127,11 +128,12 @@ Desktop Navigation
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 900;
   color: #000000;
   white-space: nowrap;
   transition: 0.3s;
+  font-family: poppins;
 }
 
 .navbar a i, .navbar a:focus i {
@@ -357,8 +359,10 @@ Hero Section
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
-  color: #fff;
+  background-image: linear-gradient(to right, #dbf4ff, white);
+  color: #004574;
+  text-decoration: none;
+  border: 2px solid #dbf4ff;
 }
 
 #hero .animated {
@@ -477,8 +481,8 @@ section {
 Clients
 */
 .clients {
-  background-image: linear-gradient(to right, #71ccf7, white);
-  padding: 10px 0;
+  background-image: linear-gradient(to right, #dbf4ff, white);
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -571,9 +575,10 @@ About Us
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
-  color: #fff;
+  background-image: linear-gradient(to right, #dbf4ff, white);
+  color: #004574;
   text-decoration: none;
+  border: 2px solid #dbf4ff;
 }
 
 @media(max-width:500px){
@@ -1345,8 +1350,8 @@ Contact
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3498db;
-  border: 0;
+  background: #2383c4;
+  border: 1px solid #2383c4;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
@@ -1354,7 +1359,9 @@ Contact
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2383c4;
+  background-image: linear-gradient(to right, #dbf4ff, white);
+  color: #004574;
+  border: 1px solid #dbf4ff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1465,4 +1472,12 @@ Footer
 
 #footer .footer-links a:hover {
   color: #3498db;
+}
+
+/* privacy */
+#shadowPrivacy{
+  background-image: linear-gradient(to right, #dbf4ff, white);
+}
+#shadowPrivacy, h1, h2, h4, h6, p{
+  font-family: poppins;
 }
