@@ -4,7 +4,7 @@
 General
 */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: poppins;
   color: #444444;
 }
 
@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*
@@ -32,7 +32,7 @@ Back to top button
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background-image: linear-gradient(to right, #dbf4ff, white);
+  background-image: linear-gradient(to right, #dbf4ff, whitesmoke);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -333,25 +333,25 @@ Hero Section
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 56px;
   color: black;
 }
 
 #hero h2 {
-  color: #3498db;
+  color: white;
   margin-bottom: 50px;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 8px 10px;
   border-radius: 12px;
   transition: 0.5s;
   color: #3498db;
@@ -359,7 +359,7 @@ Hero Section
 }
 
 #hero .btn-get-started:hover {
-  background-image: linear-gradient(to right, #dbf4ff, white);
+  background-image: linear-gradient(to right, #dbf4ff, whitesmoke);
   color: #004574;
   text-decoration: none;
   border: 2px solid #dbf4ff;
@@ -477,11 +477,16 @@ section {
   margin: 15px 0 0 0;
 }
 
+#firstHeadInMain{
+  background: #71ccf7;
+  border-radius: 2px;
+}
+
 /*
 Clients
 */
 .clients {
-  background-image: linear-gradient(to right, #dbf4ff, white);
+  background-image: linear-gradient(to right, #dbf4ff, whitesmoke);
   padding: 50px 0;
   text-align: center;
 }
@@ -575,7 +580,7 @@ About Us
 }
 
 .about .content .btn-learn-more:hover {
-  background-image: linear-gradient(to right, #dbf4ff, white);
+  background-image: linear-gradient(to right, #dbf4ff, whitesmoke);
   color: #004574;
   text-decoration: none;
   border: 2px solid #dbf4ff;
@@ -737,7 +742,7 @@ Services
 }
 
 .services .description {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -864,7 +869,7 @@ Testimonials
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
-  height: 300px;
+  height: 160px;
   border-radius:12px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
@@ -939,6 +944,7 @@ Testimonials
   .testimonials .testimonial-item {
     padding: 30px;
     margin: 15px;
+    height: 250px;
   }
   .testimonials .testimonial-item .testimonial-img {
     position: static;
@@ -1341,7 +1347,7 @@ Contact
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 10px;
   padding: 10px 15px;
 }
 
@@ -1352,14 +1358,15 @@ Contact
 .contact .php-email-form button[type="submit"] {
   background: #2383c4;
   border: 1px solid #2383c4;
-  padding: 10px 24px;
+  padding: 8px 12px;
   color: #fff;
   transition: 0.4s;
   border-radius: 12px;
+  font-size: 10px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background-image: linear-gradient(to right, #dbf4ff, white);
+  background-image: linear-gradient(to right, #dbf4ff, whitesmoke);
   color: #004574;
   border: 1px solid #dbf4ff;
 }
@@ -1476,7 +1483,7 @@ Footer
 
 /* privacy */
 #shadowPrivacy{
-  background-image: linear-gradient(to right, #dbf4ff, white);
+  background-image: linear-gradient(to right, #dbf4ff, whitesmoke);
 }
 #shadowPrivacy, h1, h2, h4, h6, p{
   font-family: poppins;
